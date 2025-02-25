@@ -1,0 +1,19 @@
+:root {
+    --violet: #B6A4FF;
+    --green: #2AE881;
+}
+
+body {
+	width: 512px;
+	height: 512px;
+	margin: 0;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	border-top: 256px solid var(--green); 
+	border-right: 256px solid var(--green); 
+	border-bottom: 256px solid var(--violet);
+	border-left: 256px solid var(--violet);
+}
